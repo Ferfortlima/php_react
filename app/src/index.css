@@ -34,13 +34,13 @@ code {
   margin-right: 5px;
 }
 .header a:hover {
-  color: #999;
+  color: #ccc;
 }
 .header small {
   color: #666;
 }
 .header .active {
-  color: #ccc;
+  color: #999;
   border-bottom: #ccc;
   padding-bottom: 7px;
   border-width: 0px 0px 8px 0px;

@@ -4,8 +4,8 @@ import { setUserSession } from "../Utils/Common";
 
 function Login(props) {
   const [loading, setLoading] = useState(false);
-  const username = useFormInput("user1@email.com");
-  const password = useFormInput("teste123");
+  const username = useFormInput("");
+  const password = useFormInput("");
   const [error, setError] = useState(null);
 
   // handle button click of login form
@@ -31,8 +31,8 @@ function Login(props) {
       .catch((error) => {
         setLoading(false);
         console.log(error);
-        // if (error.response.status === 401) setError(error.response.data.message);
-        // else setError("Something went wrong. Please try again later.");
+         if (error.response.status === 401) setError(error.response.data.message);
+         else setError("Something went wrong. Please try again later.");
       });
   };
 
