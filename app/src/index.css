@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  padding: 10px;
+  background: #edf2f4;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.header a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.header a:hover {
+  color: #999;
+}
+.header small {
+  color: #666;
+}
+.header .active {
+  color: #ccc;
+  border-bottom: #ccc;
+  padding-bottom: 7px;
+  border-width: 0px 0px 8px 0px;
+  border-style: solid;
+  border-color: #ccc;
+}
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainer {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  border: 2px solid grey;
+  background-color: #ccc;
+}
+.inputContainer {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.inputText {
+  font-size: 0.8em;
+  margin-right: 3px;
+}
+.dashboardContainer {
+  display: flex;
+  
+  flex-direction: column;
+  background-color: #ccc;
+  width: 100%;
+}
+.title {
+  text-align: center;
+}
+.icon {
+  color: black;
+  height: 30px;
+  width: 30px;
+}
+.button {
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #edf2f4;
+}
+.buttonLogout {
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #fdd;
+}
+.iconLogout {
+  color: red;
+  height: 25px;
+  width: 25px;
+}
+.clienteContainer {
+  margin: 10px;
+  display: flex;
+  background-color: #ddd;
+}
+.clienteContainerItem {
+  flex: 1;
+  margin: 15px;
+}
+.nameInfo {
+  font-weight: bold;
+}
+.botoesContainer {
+  margin: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.titleContainer {
+  display: flex;
+  flex: 1;
+}
+.titleContainerTitle {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+}
+.titleContainerButton {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+.inputClient {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.formInputContainer {
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.buttonContainer {
+  flex: 1;
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
