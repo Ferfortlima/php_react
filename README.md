@@ -1,6 +1,6 @@
 # BASE DE DADOS
 
-Para criação da base, criar um data base com o nome `kabum`, e executar este [script]('./outros/script.sql')
+Para criação da base, criar um data base com o nome `kabum`, e executar este [script](/outros/script.sql)
 
 # API
 
@@ -10,7 +10,7 @@ A API criada em PHP pode deve ser executada utilizando o comando:
 $ php -S 127.0.0.1:8000
 ```
 
-Os endpoints da API podem ser executado via POSTMAN, por esta [coleção]('./outros/Backend.postman_collection.json')
+Os endpoints da API podem ser executado via POSTMAN, por esta [coleção](/outros/Backend.postman_collection.json)
 
 
 # APP
